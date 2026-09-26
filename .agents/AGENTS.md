@@ -8,7 +8,8 @@
 - **Equipo:** 
   - Guitarra Epiphone Les Paul Pro (cuerpo cálido, humbuckers clásicos).
   - Guitarra Hamer estilo Superstrat (mástil/diapasón de arce, puente hardtail, pastilla Seymour Duncan en el puente y single coil angulada en mástil).
-  - Amplificador Line 6 Spider V 20 (con su app para edición de tonos).
+  - Amplificador Line 6 Spider V 20 (con app Spider Remote y función de interfaz de audio USB).
+  - DAW: Steinberg Cubase (incluido con el amplificador).
 
 ## Estructura Musical
 

@@ -5,7 +5,10 @@
 - **Estilo:** Hard rock con un sonido clásico ("old school").
 - **Tempo sugerido:** ~75 - 85 BPM (Ritmo de "Hard Rock Balada", pesado, arrastrado y con mucho sentimiento).
 - **Compás:** 4/4 (Cuatro cuartos, el estándar del rock clásico).
-- **Equipo:** Guitarra Epiphone Les Paul Pro, amplificador Line 6 Spider V 20 (con su respectiva app para tonos).
+- **Equipo:** 
+  - Guitarra Epiphone Les Paul Pro (cuerpo cálido, humbuckers clásicos).
+  - Guitarra Hamer estilo Superstrat (mástil/diapasón de arce, puente hardtail, pastilla Seymour Duncan en el puente y single coil angulada en mástil).
+  - Amplificador Line 6 Spider V 20 (con su app para edición de tonos).
 
 ## Estructura Musical
 

@@ -40,3 +40,26 @@ Para que los solos y arreglos melódicos destaquen por encima de la rítmica, ne
 *   **En la guitarra:** 
     *   Pastilla del puente (para solos más agresivos y con armónicos).
     *   Pastilla del mástil / Rhythm (para solos más redondos, dulces y con mucho *sustain*, muy al estilo Slash). Volumen al 10.
+
+---
+
+## 3. Ajustes y Rol para la Hamer (Seymour Duncan + Mástil de Arce)
+
+La Hamer aporta un carácter muy diferente y complementario a la Les Paul:
+- **Diapasón y mástil de arce (Maple):** Mucho más ataque percusivo (*snap*), agudos abiertos y definición nota por nota.
+- **Pastilla del puente Seymour Duncan:** Más salida y riqueza en armónicos artificiales (*pinch harmonics*), ideal para solos de corte ochentero o riffs con mucho filo.
+- **Single Coil angulada en el mástil:** Perfecta para arpegios limpios con campaneo (*glassy clean*) en las estrofas.
+- **Puente Hardtail:** Máxima transferencia de vibración al cuerpo y afinación ultra estable.
+
+### Ajuste de EQ para la Hamer en el Spider V 20:
+Como el arce y las pastillas Duncan suelen entregar más agudos que la Les Paul de caoba:
+*   **Treble:** Bajar ligeramente a **5 - 5.5** (para evitar que sea punzante o chillona).
+*   **Presence:** **4.5 - 5**.
+*   **Bass:** Subir a **6** para compensar y darle peso al puente fijo.
+*   **Mids:** Mantener en **7** (vital para el tono hard rock).
+
+### Estrategia de Grabación / Dos Guitarras (Layering):
+Si grabas o arreglas con ambas guitarras:
+1. **Pista 1 (Les Paul):** Paneada a un lado. Da el grosor, los medios-graves densos y la base pesada del riff.
+2. **Pista 2 (Hamer):** Paneada al lado opuesto. Da el filo, la definición del ataque de púa y los armónicos.
+3. **Estrofa melódica:** Usa la Single Coil de la Hamer arpegiando en limpio o semi-clean mientras la Les Paul sostiene notas o marca los acordes con palm mute suave.

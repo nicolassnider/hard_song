@@ -1,0 +1,4 @@
+# Cubase auto saves and temp files
+cubase/Auto Saves/
+*.bak
+*.tmp

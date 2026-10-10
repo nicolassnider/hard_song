@@ -122,3 +122,30 @@ E|-1---1-----------|-----------------|-3-------------------------------|
    (Golpe seco)      (Golpe seco)      (Muta las cuerdas con la mano derecha)
    1   2             1   2             1 (mutear en el tiempo 2, 3, 4)
 ```
+
+---
+
+## 5. Guía Melódica Vocal (Rango: D2 – D#4)
+
+Con un registro de **Barítono / Bajo** (**Re 2** a **Re# 4**), la canción tiene una distribución melódica natural que crea una dinámica demoledora:
+
+### A. Estrofa ($G - D - Em - C$) — Registro Medio-Grave (G2 a B3)
+- **Tono y vibra:** Fraseo íntimo, oscuro y narrativo (estilo Layne Staley, David Coverdale o Jim Morrison).
+- **Notas diana sugeridas:**
+  - Sobre $G$: reposar en $G2$ o $D3$.
+  - Sobre $D$: resolver en $F\#3$ o $A2/A3$.
+  - Sobre $Em$: caer a $E2$ (muy grave y profundo) o $G3$.
+  - Sobre $C$: subir a $C3$ o apoyar en $E3$.
+- Dejar silencios entre frases para que se escuchen los arpegios de guitarra.
+
+### B. Pre-Chorus ($A5 - C5 - D5$) — Construcción de Energía (A2 a C4)
+- La melodía empieza a subir en escala, empujando la intensidad hacia el registro medio-alto:
+  - Sobre $A5$: frasear entre $A2$ y $C3$.
+  - Sobre $C5$: subir a $E3$ y $G3$.
+  - Sobre $D5$: estirar la voz hacia $A3$ y $C4$ con voz de pecho más abierta.
+
+### C. Estribillo ($G5 - D5 - C5$) — Clímax y Potencia (B3 a D4 / D#4)
+- Aquí la voz explota con rasgado o *belting*:
+  - **Hook principal:** Atacar frases en **D4** (nota brillante del pecho para barítono) y resolver melódicamente bajando a $B3$ o $G3$.
+  - **Nota cumbre de tensión:** Usar **D#4** en el último compás del coro o en la repetición final con máxima energía y saturación vocal.
+

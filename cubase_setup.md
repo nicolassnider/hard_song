@@ -42,6 +42,8 @@ Crea las siguientes pistas de audio (*Project > Add Track > Audio*):
 | **03_Lead_Guitar** | Audio Mono | **Centro (Center)** | Solos y fraseos melódicos (usando el preset Lead con Overdrive + Delay). |
 | **04_Drums** | Instrumento VST | **Centro** | Batería acústica de rock con **Groove Agent SE** (incluido gratis en Cubase). |
 | **05_Bass** | Audio o Instrumento | **Centro** | Línea de bajo siguiendo las fundamentales ($G - D - E - C$). |
+| **06_Lead_Vocal** | Audio Mono | **Centro** | Voz principal (Rango D2 - D#4). |
+| **07_Backing_Vocals** | Audio Mono/Stereo | **Pan L/R (40% - 60%)** | Coros y doblajes para dar amplitud en el estribillo. |
 
 > [!TIP]
 > **El secreto del sonido "Pared de Guitarras" (Wall of Sound):**
@@ -49,9 +51,26 @@ Crea las siguientes pistas de audio (*Project > Add Track > Audio*):
 
 ---
 
-## 4. Batería en Cubase con Groove Agent SE
+## 4. Grabación y Mezcla de Voz (Rango D2 – D#4)
+
+Al ser una voz con registro grave/barítono, el tratamiento en Cubase debe equilibrar el peso cálido sin enturbiar la mezcla con el bajo y las guitarras:
+
+1. **Filtro Paso Alto (High-Pass / Low Cut):**
+   - Tu nota más baja es **D2 (~73.4 Hz)**.
+   - Ajusta el corte pasa-altos entre **50 Hz y 65 Hz** (no en los 80-100 Hz habituales de tenores) para no cortar las frecuencias fundamentales de tus notas más graves.
+2. **Control de Proximidad / Enlodamiento (Muddy Range):**
+   - Aplica un filtro de campana suave atenuando 1 a 2 dB entre **180 Hz y 280 Hz** para limpiar el efecto de proximidad del micrófono y dejar respirar el bajo ($G - D - Em - C$).
+3. **Presencia y Mordida Rockera:**
+   - Realza suavemente entre **2.5 kHz y 4.5 kHz** para que la voz corte la distorsión de las guitarras y el grano rasgado suene al frente.
+4. **Compresión:**
+   - Usa un compresor tipo FET (estilo 1176 rápido) o el compresor integrado de Cubase con ratio 4:1 para domar los saltos dinámicos entre los susurros/versos graves y la pegada del estribillo en D4.
+
+---
+
+## 5. Batería en Cubase con Groove Agent SE
 
 Cubase incluye el plugin **Groove Agent SE**:
 1. Agrega una pista de instrumento (*Project > Add Track > Instrument*) y elige **Groove Agent SE**.
 2. Carga un kit acústico de rock (ejemplo: *The Rock Toolkit*, *Raw Power Kit* o *Rock Standard*).
 3. Puedes arrastrar patrones MIDI de rock a 80 BPM directamente al secuenciador para tener una base de batería real sobre la cual practicar y grabar los riffs de [tabs.md](file:///c:/repos/hard_song/tabs.md).
+

@@ -49,6 +49,7 @@ Recomendada para la primera estrofa (Verse 1).
 * **Selección de Pastilla:** Cambiar a la **pastilla del mástil (Neck)** o **posición central (Middle)** para obtener un tono cálido, redondo y dulce.
 * **Controles:** Bajar el potenciómetro de volumen a **4 o 5** para que el amplificador limpie la saturación (*edge-of-breakup*).
 * **Técnica:** Tocar en arpegio continuo de corcheas permitiendo que todas las notas resuenen libres (*Let Ring*).
+* **Espacio y Paneo para la Voz Grave:** Abrir las guitarras arpegiadas a los extremos (**100% L y 100% R**). El bombo y el bajo eléctrico se encargan del peso rítmico y los graves en el centro, dejando el centro del panorama estéreo completamente despejado para que la voz de barítono respire con calidez y nitidez.
 
 ```
      (Figuras: Arpegio constante en Corcheas)
@@ -85,14 +86,17 @@ PM .......................................................................
 
 #### 2.3. Pre-Chorus (Puente) — Progresión: A5 - C5 - D5
 
-El objetivo del Pre-Chorus es construir una rampa de tensión dramática.
+El objetivo del Pre-Chorus es construir una rampa de tensión dramática explosiva antes del estribillo.
 
 * **Transición Dinámica y Controles:** Al pasar del C final de la estrofa, **girar el volumen de la guitarra al máximo (10)** e interactuar en la **pastilla del puente**.
-* **Técnica:** Sostener los acordes A5 y C5 en figuras de redonda dejando arder la distorsión. Al llegar a D5, iniciar un machaque en corcheas con *Palm Mute* suave, soltando progresivamente la mano derecha (*crescendo*) e incrementando el ataque de la púa hasta romper con ganancia completa hacia el estribillo.
+* **Técnica de Guitarras:** Sostener los acordes A5 y C5 en figuras de redonda dejando arder la distorsión. Al llegar a D5, iniciar un machaque en corcheas con *Palm Mute* suave, soltando progresivamente la mano derecha (*crescendo*) e incrementando el ataque de la púa hasta romper con ganancia completa hacia el estribillo.
+* **Dinámica Rítmica de Batería (Drum Fill / Toms Build):** En lugar de un ritmo estático, la batería ejecuta una construcción ininterrumpida:
+  - Sobre A5 y C5: Golpes pesados en los bombos y patrón tribal en los *floor toms*.
+  - Sobre D5: Un **redoble continuo en los toms y caja en semicorcheas** que acelera y sube de intensidad (*crescendo* demoledor) para impulsar el estallido del estribillo.
 
 ```
      (Figuras: Redondas dejando sonar, y luego Corcheas en crescendo)
-     A5                C5                D5 (Construyendo tensión)
+     A5                C5                D5 (Construyendo tensión con redoble de toms)
 e|-----------------|-----------------|-----------------|-----------------|
 B|-----------------|-----------------|-----------------|-----------------|
 G|-2---------------|-5---------------|-7-7-7-7-7-7-7-7-|-7-7-7-7-7-7-7-7-|
@@ -165,15 +169,24 @@ Ascenso melódico continuo en escala, empujando la tesitura hacia la voz de pech
 
 * **Sobre A5:** Fraseo grave inicial entre **A2** y **C3**.
 * **Sobre C5:** Elevación melódica alcanzando **E3** y **G3**.
-* **Sobre D5:** Proyección con apertura de voz de pecho sobre **A3** e impacto en **C4**.
+* **Sobre D5:** Proyección con apertura de voz de pecho sobre **A3** e impacto en **C4**, cabalgando sobre el redoble de toms de la batería.
 
 #### 3.3. Estribillo (G5 - D5 - C5) — Clímax y Potencia (B3 a D4 / D#4)
 
 * **Hook Principal:** Atacar la frase de entrada directamente en **D4** (nota diana brillante en voz de pecho para Barítono) descendiendo melódicamente hacia **B3** o **G3**.
 * **Nota Cumbre:** Uso de **D#4** en el último compás del coro o repetición final con máxima distorsión vocal.
+* **Arreglo Vocal de Capas (Doblajes y Segundas Voces):**
+  * **Doblaje a la Octava Inferior (Centro):** Para darle un grosor masivo al clímax en **D4**, grabar una toma doblada exactamente **una octava abajo (D3)** situada en el **centro**. Al ser barítono/bajo, esta octava inferior resonará con enorme autoridad física sin saturar la zona media-alta.
+  * **Apoyos Rasgados Laterales (L/R en C5):** En el compás donde la armonía reposa sobre **C5**, incorporar coros agresivos y rasgados paneados abiertos (40-60% L y R) gritando la tónica o quinta, creando un ensanchamiento estéreo cinematográfico.
 * **Técnica de Ejecución Vocal y Modificación de Vocales:**
   * *Modificación de Vocales:* Para atacar notas en la zona superior de la tesitura de pecho (**D4** y **D#4**) sin contraer la laringe, el cantante debe redondear las vocales cerradas hacia sonidos más abiertos. Modificar las vocales /i/ o /e/ inclinándolas ligeramente hacia /o/ o /a/ (por ejemplo, cantar una "E" con resonancia de "A" abierta). Esto amplía el espacio faríngeo y evita el cierre prematuro del pliegue vocal.
   * *Gestión de Aire y Fatiga:* Inhalar profundamente usando apoyo diafragmático bajo durante la preparación en el acorde C5 del Pre-Chorus. Evitar expulsar todo el aire en el primer ataque del **D4**; mantener la presión subglótica constante para dosificar el rasgado vocal a lo largo de múltiples tomas de grabación en el estudio.
+
+#### 3.4. Efectos y Textura Vocal (Estética Analógica 70s)
+
+* **Tape Delay Slapback (Estrofas):** Aplicar un Tape Delay analógico sincronizado a **1/8** con retroalimentación casi nula (*slapback* sutil, Mix: 15-20%) durante las estrofas. Esto le confiere a la voz de barítono esa profundidad cálida y oscura de los discos clásicos de los 70 (estilo Led Zeppelin / Alice Cooper).
+* **Espacio en Estribillo:** En el estribillo, abrir hacia una reverb tipo Plate o Hall con decay moderado y un delay estéreo con ping-pong sutil para agrandar el campo sonoro junto a las guitarras abiertas.
+
 
 ---
 
@@ -230,6 +243,12 @@ La guitarra Hamer cuenta con mástil de arce (*snap* percusivo), pastilla Seymou
   * Alinear visualmente los transitorios de las formas de onda en el editor. Si hay cancelación, invertir la polaridad (fase 180°) en una de las pistas.
   * Para ampliar la imagen estéreo sin desenfoque de fase (*phase smearing*), aplicar un **micro-delay imperceptible de 5 a 15 ms** en una de las pistas o una leve micro-desafinación (*pitch-detune* de +/- 4 a 6 cents) entre tomas ejecutadas independientemente.
 
+#### 4.4. Filtro de Gravedad y Limpieza Sub-Grave (Mezcla de Estudio)
+
+* **Corte Paso-Alto (HPF a 35 Hz en Bajo y Guitarras Rítmicas):**
+  * Aplicar un filtro paso-alto estricto en **35 Hz** (pendiente de 18 o 24 dB/oct) tanto en la pista del bajo como en las guitarras rítmicas (Les Paul y Hamer).
+  * *Objetivo acústico:* Eliminar el retumbe sub-grave y el "barro" de frecuencias inaudibles que saturan el compresor del bus máster sin aportar musicalidad. Esto libera un valioso margen dinámico (*headroom*) y le devuelve al bombo y al bajo una pegada sólida, contundente y con máxima definición.
+
 ---
 
 ### 5. Estructura Completa de la Canción y Lead Sheet
@@ -250,8 +269,10 @@ Tempo: ~75-85 BPM | Compás: 4/4 | Tonalidad: Sol Menor (G minor)
    [Compases 5 a 12]
    - Progresión: | G  | D  | Em | C  | G  | D  | Em | C  | (1 compás por acorde)
    - Guitarras: Opción A (Arpegiado "Let Ring") | Vol. 4-5 | Pastilla Mástil
+   - Paneo y Espacio: Guitarras abiertas 100% L y 100% R | Centro despejado para la voz
+   - Sección Rítmica: Bombo y bajo llevan el pulso y peso en el centro
    - Timing Arpegio: Tocar arpegio completo permitiendo espacio libre en el tiempo 4
-   - Voz: Registro medio-grave (G2 a B3). Fraseo íntimo entre tiempos 1 y 3
+   - Voz: Registro medio-grave (G2 a B3). Fraseo íntimo + Tape Delay 1/8 slapback
    - Dinámica: P (Intimidad narrativa)
 
 3. ESTROFA 2 / VERSE 2 (8 Compases)
@@ -267,14 +288,19 @@ Tempo: ~75-85 BPM | Compás: 4/4 | Tonalidad: Sol Menor (G minor)
    - Guitarras: 
      * Compases 21-22 (A5 y C5): Redondas sostenidas | Vol. 10
      * Compases 23-24 (D5): Corcheas en crescendo liberando Palm Mute y subiendo púa
+   - Batería: Drum fill ininterrumpido con toms tribales en A5/C5 y redoble de toms
+     en crescendo sobre D5 impulsando la transición al estribillo
    - Voz: Ascenso melódico A2 -> C3 -> E3 -> G3 -> C4 (Voz de pecho abierta en D5)
    - Dinámica: MF -> F (Tensión en crescendo hacia el quiebre)
 
 5. ESTRIBILLO / CHORUS (8 Compases)
    [Compases 25 a 32]
    - Progresión: | G5 | D5 | C5 | C5 | G5 | D5 | C5 | C5 | (1 compás por acorde)
-   - Guitarras: Patron rítmico abierto (Negras + Corcheas de rebote) | Sin PM | Vol. 10
-   - Voz: Belting / Rasgado vocal. Hook atacando en D4 y resolviendo a B3/G3
+   - Guitarras: Patrón rítmico abierto (Negras + Corcheas de rebote) | Sin PM | Vol. 10
+   - Voz Principal: Belting / Rasgado vocal. Hook atacando en D4 y resolviendo a B3/G3
+   - Capas Vocales:
+     * Doblaje a la octava inferior (D3) en el centro para densidad y cuerpo masivo
+     * Apoyos rasgados laterales (L/R) en el compás de C5 ampliando el plano estéreo
    - Nota Cumbre Vocal: D#4 en el compás 32 (Apertura de vocal a /a/ o /o/)
    - Dinámica: FF (Clímax de la banda)
 

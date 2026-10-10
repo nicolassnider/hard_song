@@ -37,13 +37,14 @@ Crea las siguientes pistas de audio (*Project > Add Track > Audio*):
 
 | Nombre de Pista | Tipo | Paneo (L/R) | Instrumento / Rol |
 | :--- | :--- | :--- | :--- |
-| **01_Rhythm_LesPaul** | Audio Mono/Stereo | **100% Izquierda (Hard L)** | Epiphone Les Paul Pro: Tono Brit 800 pesado para el riff y base rítmica de la estrofa. |
-| **02_Rhythm_Hamer** | Audio Mono/Stereo | **100% Derecha (Hard R)** | Hamer (Seymour Duncan): Tono Brit 800 para doblar el riff, y Single Coil para arpegios en estrofa. |
-| **03_Lead_Guitar** | Audio Mono | **Centro (Center)** | Solos y fraseos melódicos (usando el preset Lead con Overdrive + Delay). |
-| **04_Drums** | Instrumento VST | **Centro** | Batería acústica de rock con **Groove Agent SE** (incluido gratis en Cubase). |
-| **05_Bass** | Audio o Instrumento | **Centro** | Línea de bajo siguiendo las fundamentales ($G - D - E - C$). |
+| **01_Rhythm_LesPaul** | Audio Mono/Stereo | **100% Izquierda (Hard L)** | Epiphone Les Paul Pro: Riff y rítmica con Brit 800 (HPF a 35 Hz en mezcla). |
+| **02_Rhythm_Hamer** | Audio Mono/Stereo | **100% Derecha (Hard R)** | Hamer (Seymour Duncan): Doble del riff y arpegios limpios (HPF a 35 Hz en mezcla). |
+| **03_Lead_Guitar** | Audio Mono | **Centro (Center)** | Solos y fraseos melódicos (Lead con Overdrive + Delay). |
+| **04_Drums** | Instrumento VST | **Centro** | Batería acústica de rock con **Groove Agent SE** (con toms crescendo en Pre-Chorus). |
+| **05_Bass** | Audio o Instrumento | **Centro** | Línea de bajo siguiendo fundamentales ($G - D - E - C$, HPF a 35 Hz). |
 | **06_Lead_Vocal** | Audio Mono | **Centro** | Voz principal (Rango D2 - D#4). |
-| **07_Backing_Vocals** | Audio Mono/Stereo | **Pan L/R (40% - 60%)** | Coros y doblajes para dar amplitud en el estribillo. |
+| **07_Vocal_OctDown** | Audio Mono | **Centro** | Doblaje vocal a la octava inferior (D3) para masa y grosor en estribillo. |
+| **08_Backing_Vocals** | Audio Mono/Stereo | **Pan L/R (40% - 60%)** | Coros rasgados laterales en el compás de C5. |
 
 > [!TIP]
 > **El secreto del sonido "Pared de Guitarras" (Wall of Sound):**
@@ -64,6 +65,9 @@ Al ser una voz con registro grave/barítono, el tratamiento en Cubase debe equil
    - Realza suavemente entre **2.5 kHz y 4.5 kHz** para que la voz corte la distorsión de las guitarras y el grano rasgado suene al frente.
 4. **Compresión:**
    - Usa un compresor tipo FET (estilo 1176 rápido) o el compresor integrado de Cubase con ratio 4:1 para domar los saltos dinámicos entre los susurros/versos graves y la pegada del estribillo en D4.
+5. **Efectos Analógicos de Época (Textura 70s):**
+   - **Tape Delay Slapback en Estrofas:** Inserta un plugin de delay analógico sincronizado a **1/8** con feedback al mínimo y mix sutil (15%) para darle a la voz de barítono esa profundidad oscura clásica (estilo Alice Cooper o Led Zeppelin).
+   - **Reverb y Ping-Pong en Estribillo:** Envía la voz a una reverb Plate y añade delay estéreo para que acompañe la apertura del coro junto a los coros laterales.
 
 ---
 
@@ -72,5 +76,18 @@ Al ser una voz con registro grave/barítono, el tratamiento en Cubase debe equil
 Cubase incluye el plugin **Groove Agent SE**:
 1. Agrega una pista de instrumento (*Project > Add Track > Instrument*) y elige **Groove Agent SE**.
 2. Carga un kit acústico de rock (ejemplo: *The Rock Toolkit*, *Raw Power Kit* o *Rock Standard*).
-3. Puedes arrastrar patrones MIDI de rock a 80 BPM directamente al secuenciador para tener una base de batería real sobre la cual practicar y grabar los riffs de [tabs.md](file:///c:/repos/hard_song/tabs.md).
+3. **Construcción del Pre-Chorus:** En los compases del puente (compases 21-24), utiliza un patrón de toms ininterrumpido (floor toms en A5/C5 y redoble crescendo en semicorcheas sobre D5) para crear el empuje dinámico que hace estallar el estribillo.
+4. Puedes importar el archivo MIDI generado (`cubase/hard_song_tracks.mid`) directamente para tener las pistas de batería y claqueta ya secuenciadas a 80 BPM.
+
+---
+
+## 6. Técnicas de Mezcla en Estudio
+
+1. **Filtro de Gravedad (HPF a 35 Hz en Bajo y Guitarras Rítmicas):**
+   - Inserta un filtro paso-alto en **35 Hz** (pendiente de 18 o 24 dB/oct) tanto en el canal del bajo como en las pistas de guitarra rítmica (Les Paul y Hamer).
+   - Esto limpia el barro inaudible del sub-grave, liberando *headroom* en el bus de mezcla máster y permitiendo que el bombo tenga una pegada seca y contundente.
+2. **Espacio para la Voz en Estrofa 1:**
+   - Mantén las guitarras arpegiadas bien abiertas a los lados (**100% L / 100% R**).
+   - Deja que el bajo y el bombo lleven el pulso central, dejando el centro del panorama completamente despejado para que tu voz grave se escuche íntima, cálida y sin competir por frecuencias.
+
 

@@ -33,4 +33,11 @@
 - **Mezcla y ecualización:** Considerar el cuerpo grave de una voz de barítono (no recortar excesivamente los graves con HPF muy altos; dejar espacio entre 80 Hz y 200 Hz para evitar conflicto con el bajo y la fundamental de la guitarra).
 - Ten siempre en cuenta el equipo disponible (Les Paul, Hamer y Spider V 20) al dar consejos de configuración de efectos, EQ o uso de pastillas.
 - Fomenta el contraste dinámico entre las distintas partes de la canción (intro pesada vs. estrofas con espacio).
+- **Producción y Mezcla de Estudio:**
+  - **Pre-Chorus:** Construir tensión usando drum fills y redobles ininterrumpidos en toms hacia el acorde D5 antes del estribillo.
+  - **Espacio en Estrofas:** Paneado estricto L/R para guitarras arpegiadas, dejando el centro libre para la voz de barítono sostenida por bombo y bajo.
+  - **Capas Vocales en Estribillo:** Doblar la melodía principal a la octava inferior en el centro (D3) e incorporar apoyos rasgados paneados a los lados en el acorde C5.
+  - **Efectos de Época:** Tape delay corto (1/8) con slapback sutil en versos para textura 70s.
+  - **Limpieza Sub-Grave:** Aplicar filtro paso-alto (HPF) a 35 Hz en bajo y guitarras rítmicas para eliminar suciedad y maximizar pegada y headroom.
+
 

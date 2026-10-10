@@ -130,23 +130,43 @@ def build_project_midi(filename):
             vel = 85 if e % 2 == 0 else 70
             t_drums.add_note(drum_ch, 42, vel, bar_base + e * (ticks_per_quarter // 2), ticks_per_quarter // 2)
 
-    # Pre-Chorus (Bars 15-18: 4 bars)
+    # Pre-Chorus (Bars 15-18: 4 bars) - Redoble ininterrumpido y toms en crescendo
+    # Bar 0 (A5) & Bar 1 (C5): Patrón tribal/conducción pesada en toms y bombo en negras/corcheas
+    # Bar 2 & 3 (D5): Redoble continuo en semicorcheas sobre toms y caja, subiendo tensión hacia el estribillo
     for b in range(4):
         bar_base = prechorus_start + b * bar_ticks
         if b < 2:
-            # Subtle groove
-            t_drums.add_note(drum_ch, 36, 105, bar_base, ticks_per_quarter)
-            t_drums.add_note(drum_ch, 38, 110, bar_base + ticks_per_quarter, ticks_per_quarter)
-            t_drums.add_note(drum_ch, 38, 110, bar_base + 3 * ticks_per_quarter, ticks_per_quarter)
+            # Floor Tom (41/43) y Low Tom (45) con bombo continuo
             for e in range(8):
-                t_drums.add_note(drum_ch, 42, 85, bar_base + e * (ticks_per_quarter // 2), ticks_per_quarter // 2)
+                t_pos = bar_base + e * (ticks_per_quarter // 2)
+                vel_kick = 110 if e % 2 == 0 else 95
+                t_drums.add_note(drum_ch, 36, vel_kick, t_pos, ticks_per_quarter // 2) # Bombo constante
+                # Floor tom marcando ritmo tribal
+                tom_note = 43 if e % 2 == 0 else 45
+                t_drums.add_note(drum_ch, tom_note, 90 + b * 10, t_pos, ticks_per_quarter // 2)
+                # Golpe de caja acentuado en 2 y 4
+                if e == 2 or e == 6:
+                    t_drums.add_note(drum_ch, 38, 105, t_pos, ticks_per_quarter // 2)
         else:
-            # Snare/Tom crescendo build
-            for e in range(8):
-                cresc_vel = 70 + b * 15 + e * 3
-                t_drums.add_note(drum_ch, 38, min(127, cresc_vel), bar_base + e * (ticks_per_quarter // 2), ticks_per_quarter // 2)
-                if e % 2 == 0:
-                    t_drums.add_note(drum_ch, 36, min(127, cresc_vel + 5), bar_base + e * (ticks_per_quarter // 2), ticks_per_quarter // 2)
+            # Redoble ininterrumpido sobre D5 (Floor Tom -> Mid Tom -> Snare crescendo)
+            # 16th notes fill continuo
+            for s in range(16):
+                t_pos = bar_base + s * (ticks_per_quarter // 4)
+                cresc_vel = min(127, 75 + (b - 2) * 24 + s * 2)
+                # Bombo continuo en corcheas
+                if s % 2 == 0:
+                    t_drums.add_note(drum_ch, 36, cresc_vel, t_pos, ticks_per_quarter // 4)
+                # Rotación de toms y caja para el redoble
+                if b == 2:
+                    # Alternancia Floor Tom (41) y Low Tom (45)
+                    t_note = 41 if s % 2 == 0 else 45
+                else:
+                    # Compás final hacia el chorus: Mid Tom (47), High Tom (50) y Snare (38)
+                    if s < 8:
+                        t_note = 45 if s % 2 == 0 else 47
+                    else:
+                        t_note = 50 if s % 2 == 0 else 38
+                t_drums.add_note(drum_ch, t_note, cresc_vel, t_pos, ticks_per_quarter // 4)
 
     # Chorus (Bars 19-26: 8 bars)
     for b in range(8):

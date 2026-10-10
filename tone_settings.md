@@ -60,6 +60,11 @@ Como el arce y las pastillas Duncan suelen entregar más agudos que la Les Paul 
 
 ### Estrategia de Grabación / Dos Guitarras (Layering):
 Si grabas o arreglas con ambas guitarras:
-1. **Pista 1 (Les Paul):** Paneada a un lado. Da el grosor, los medios-graves densos y la base pesada del riff.
-2. **Pista 2 (Hamer):** Paneada al lado opuesto. Da el filo, la definición del ataque de púa y los armónicos.
+1. **Pista 1 (Les Paul):** Paneada a la izquierda (100% L). Da el grosor, los medios-graves densos y la base pesada del riff.
+2. **Pista 2 (Hamer):** Paneada a la derecha (100% R). Da el filo, la definición del ataque de púa y los armónicos.
 3. **Estrofa melódica:** Usa la Single Coil de la Hamer arpegiando en limpio o semi-clean mientras la Les Paul sostiene notas o marca los acordes con palm mute suave.
+
+### Alineación de Fase y Espacialidad Estéreo:
+* **Comprobación en Mono (Mono Sum):** Suma la mezcla a mono en Cubase para verificar que no haya cancelaciones de graves o huecos acústicos entre ambas guitarras. Si ocurre, invierte la polaridad (180°) en una de las pistas.
+* **Micro-Delay Estéreo:** Para una imagen ultra amplia sin emborronamiento, añade un retardo de **5 a 15 ms** en una de las pistas, o aplica una sutil micro-desafinación de pitch-detune (+/- 4 a 6 cents) entre tomas.
+

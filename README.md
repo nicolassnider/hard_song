@@ -1,4 +1,4 @@
-# Proyecto Musical: Hard Rock Old School en Sol Menor (G minor)
+# Proyecto Musical: "Sigo de Pie" (Hard Rock Old School en Sol Menor)
 
 Proyecto de composición, arreglos, producción y grabación para una balada / tema de Hard Rock clásico con sonido británico ("old school").
 
@@ -8,7 +8,8 @@ Proyecto de composición, arreglos, producción y grabación para una balada / t
 
 | Documento | Descripción |
 | :--- | :--- |
-| **[lead_sheet.md](file:///c:/repos/hard_song/lead_sheet.md)** | **Guía Maestra y Lead Sheet de Estudio:** Ficha técnica, estructura compás por compás (1 a 36), técnicas vocales (D2-D#4), producción y alineación de fase estéreo. |
+| **[lyrics.md](file:///c:/repos/hard_song/lyrics.md)** | **Letra Oficial y Guía de Interpretación Vocal:** Letra completa con acordes, indicaciones de tesitura para barítono/bajo, doblajes y coros. |
+| **[lead_sheet.md](file:///c:/repos/hard_song/lead_sheet.md)** | **Guía Maestra y Lead Sheet de Estudio:** Ficha técnica, estructura compás por compás (1 a 64), técnicas vocales (D2-D#4), producción y alineación de fase estéreo. |
 | **[tabs.md](file:///c:/repos/hard_song/tabs.md)** | **Tablaturas de Guitarra:** Partituras ASCII para Riff en G menor pentatónica, Estrofa (arpegio y power chords), Pre-Chorus, Estribillo y Remate. |
 | **[tone_settings.md](file:///c:/repos/hard_song/tone_settings.md)** | **Configuraciones de Tono (Line 6 Spider V 20):** Presets Brit 800/Plexi, ajustes para Les Paul Pro (caoba) y Hamer (arce + Seymour Duncan). |
 | **[cubase_setup.md](file:///c:/repos/hard_song/cubase_setup.md)** | **Guía de Grabación en Cubase:** Configuración USB ASIO, plantilla multitrack (8 pistas), Groove Agent SE y procesamiento de voz de barítono. |

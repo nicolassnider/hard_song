@@ -149,3 +149,31 @@ Con un registro de **Barítono / Bajo** (**Re 2** a **Re# 4**), la canción tien
   - **Hook principal:** Atacar frases en **D4** (nota brillante del pecho para barítono) y resolver melódicamente bajando a $B3$ o $G3$.
   - **Nota cumbre de tensión:** Usar **D#4** en el último compás del coro o en la repetición final con máxima energía y saturación vocal.
 
+---
+
+## 6. El Puente Dramático (Bridge): Eb5 – F5 – G5 / Eb5 – F5 – D5
+
+Introduce el momento de máxima tensión lírica ("Mordé el alambre, aguantá el tirón... ¡Jamás!"), usando los acordes modales $\text{E}\flat 5$ (traste 6 cuerda 5) y $\text{F}5$ (traste 8 cuerda 5) característicos del Hard Rock antes de romper en $D5$:
+
+```tabs
+     (Figuras: Corcheas con ganancia al 10 y redondas pesadas)
+     Eb5               F5                G5                G5 (Se sostiene)
+e|-----------------|-----------------|-----------------|-----------------|
+B|-----------------|-----------------|-----------------|-----------------|
+G|-8-8-8-8-8-8-8-8-|-1010101010101010|-----------------|-----------------|
+D|-8-8-8-8-8-8-8-8-|-1010101010101010|-5---------------|-5---------------|
+A|-6-6-6-6-6-6-6-6-|-8-8-8-8-8-8-8-8-|-5---------------|-5---------------|
+E|-----------------|-----------------|-3---------------|-3---------------|
+   "Mordé el alambre, aguantá el tirón...  el último asalto es mi salvación"
+
+     Eb5               F5                D5                D5 (¡Corte seco!)
+e|-----------------|-----------------|-----------------|-----------------|
+B|-----------------|-----------------|-----------------|-----------------|
+G|-8-8-8-8-8-8-8-8-|-1010101010101010|-7-7-7-7-7-7-7-7-|-7---------------|
+D|-8-8-8-8-8-8-8-8-|-1010101010101010|-7-7-7-7-7-7-7-7-|-7---------------|
+A|-6-6-6-6-6-6-6-6-|-8-8-8-8-8-8-8-8-|-5-5-5-5-5-5-5-5-|-5---------------|
+E|-----------------|-----------------|-----------------|-----------------|
+   "No tiro la toalla, no hay marcha atrás...              ¡JAMÁS!"
+```
+
+

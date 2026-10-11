@@ -255,7 +255,7 @@ La guitarra Hamer cuenta con mástil de arce (*snap* percusivo), pastilla Seymou
 
 ```
 ================================================================================
-GUÍA DE ESTRUCTURA Y LEAD SHEET DE ESTUDIO
+GUÍA DE ESTRUCTURA Y LEAD SHEET DE ESTUDIO: "SIGO DE PIE"
 Tempo: ~75-85 BPM | Compás: 4/4 | Tonalidad: Sol Menor (G minor)
 ================================================================================
 
@@ -267,34 +267,47 @@ Tempo: ~75-85 BPM | Compás: 4/4 | Tonalidad: Sol Menor (G minor)
 
 2. ESTROFA 1 / VERSE 1 (8 Compases)
    [Compases 5 a 12]
+   - Letra:
+     "Polvo y sudor en la piel / Vendas viejas en mi puño fiel
+      El cuero pesado vuelve a crujir / Sigo de pie, no sé huir
+      Caí diez veces en el tapiz / Llevo marcada la cicatriz"
    - Progresión: | G  | D  | Em | C  | G  | D  | Em | C  | (1 compás por acorde)
    - Guitarras: Opción A (Arpegiado "Let Ring") | Vol. 4-5 | Pastilla Mástil
    - Paneo y Espacio: Guitarras abiertas 100% L y 100% R | Centro despejado para la voz
    - Sección Rítmica: Bombo y bajo llevan el pulso y peso en el centro
-   - Timing Arpegio: Tocar arpegio completo permitiendo espacio libre en el tiempo 4
+   - Timing Arpegio: Fraseo vocal entre tiempos 1 y 3 (tiempo 4 libre para arpegio)
    - Voz: Registro medio-grave (G2 a B3). Fraseo íntimo + Tape Delay 1/8 slapback
    - Dinámica: P (Intimidad narrativa)
 
 3. ESTROFA 2 / VERSE 2 (8 Compases)
    [Compases 13 a 20]
+   - Letra:
+     "Dientes apretados, gusto a sal / Esta vieja furia no tiene rival
+      Nadie en la grada me va a aplaudir / Solo este saco me ve sufrir"
    - Progresión: | G5 | D5 | E5 | C5 | G5 | D5 | E5 | C5 | (1 compás por acorde)
    - Guitarras: Opción B (Power Chords en corcheas con PM) | Vol. 7-8 | Pastilla Puente
    - Voz: Aumento de presencia y proyectando resonancia torácica
    - Dinámica: MP -> MF (Construcción de energía)
 
-4. PRE-CHORUS (4 Compases)
+4. PRE-CHORUS 1 (4 Compases)
    [Compases 21 a 24]
+   - Letra:
+     "Arde el aire, sube la tensión / Ruge la fuerza en el corazón / No voy a aflojar"
    - Progresión: | A5 (1 compás) | C5 (1 compás) | D5 (2 compases) |
    - Guitarras: 
      * Compases 21-22 (A5 y C5): Redondas sostenidas | Vol. 10
      * Compases 23-24 (D5): Corcheas en crescendo liberando Palm Mute y subiendo púa
    - Batería: Drum fill ininterrumpido con toms tribales en A5/C5 y redoble de toms
-     en crescendo sobre D5 impulsando la transición al estribillo
+     en semicorcheas en crescendo sobre D5 impulsando la transición al estribillo
    - Voz: Ascenso melódico A2 -> C3 -> E3 -> G3 -> C4 (Voz de pecho abierta en D5)
    - Dinámica: MF -> F (Tensión en crescendo hacia el quiebre)
 
-5. ESTRIBILLO / CHORUS (8 Compases)
+5. ESTRIBILLO / CHORUS 1 (8 Compases)
    [Compases 25 a 32]
+   - Letra:
+     "Golpe a golpe, sin dar un paso atrás / Rompo el silencio, no pido paz
+      Aunque me queme todo el dolor / Meto más nafta en el motor
+      ¡Sigo de pie, sigo acá! / (Sigo acá)"
    - Progresión: | G5 | D5 | C5 | C5 | G5 | D5 | C5 | C5 | (1 compás por acorde)
    - Guitarras: Patrón rítmico abierto (Negras + Corcheas de rebote) | Sin PM | Vol. 10
    - Voz Principal: Belting / Rasgado vocal. Hook atacando en D4 y resolviendo a B3/G3
@@ -304,11 +317,39 @@ Tempo: ~75-85 BPM | Compás: 4/4 | Tonalidad: Sol Menor (G minor)
    - Nota Cumbre Vocal: D#4 en el compás 32 (Apertura de vocal a /a/ o /o/)
    - Dinámica: FF (Clímax de la banda)
 
-6. RE-INTRO / REMATE Y CONEXIÓN (4 Compases)
+6. RE-INTRO Y ENLACE (4 Compases)
    [Compases 33 a 36]
    - Progresión: | F5 (Compás 33) | C5 (Compás 34) | G5 (Compás 35 con muteo) | Riff Intro |
    - Guitarras: Golpes secos en F5 y C5 -> Golpe en G5 con silencio abrupto en tiempo 2
    - Muteo: Bloqueo de cuerdas con mano derecha
-   - Enlace: Riff Principal en pentatónica enganchando con la siguiente sección
+
+7. PUENTE DRAMÁTICO / BRIDGE (8 Compases)
+   [Compases 37 a 44]
+   - Letra:
+     "Mordé el alambre, aguantá el tirón / El último asalto es mi salvación
+      No tiro la toalla, no hay marcha atrás / ¡Jamás!"
+   - Progresión: | Eb5 | F5 | G5 | G5 | Eb5 | F5 | D5 | D5 |
+   - Guitarras: Power Chords pesados con saturación máxima
+   - Voz: Máxima tensión dramática, coronando con grito desgarrado en D4/D#4 ("¡Jamás!")
+   - Dinámica: F -> FFF
+
+8. SOLO DE GUITARRA (8 Compases)
+   [Compases 45 a 52]
+   - Base rítmica: Progresión de Chorus (| G5 | D5 | C5 | C5 |) o Riff Pentatónico
+   - Pista Lead: Hamer o Les Paul con Wah / Delay y armónicos artificiales
+
+9. ESTRIBILLO FINAL (8 Compases)
+   [Compases 53 a 60]
+   - Letra: Coro completo con máxima intensidad vocal y doblajes estéreo
+   - Progresión: | G5 | D5 | C5 | C5 | G5 | D5 | C5 | C5 |
+   - Dinámica: FFF (A toda máquina)
+
+10. OUTRO / REMATE FINAL (4 Compases)
+    [Compases 61 a 64]
+    - Letra:
+      "Un golpe más / (Un golpe más) / Pura furia / Hierro y sal /
+       ¡No me van a tirar! / (¡Sigo acá!)"
+    - Progresión: | F5 | C5 | G5 (Silencio) | Riff final con acento final en G5 |
+    - Dinámica: FFF
 ================================================================================
 ```

@@ -68,3 +68,38 @@ Si grabas o arreglas con ambas guitarras:
 * **Comprobación en Mono (Mono Sum):** Suma la mezcla a mono en Cubase para verificar que no haya cancelaciones de graves o huecos acústicos entre ambas guitarras. Si ocurre, invierte la polaridad (180°) en una de las pistas.
 * **Micro-Delay Estéreo:** Para una imagen ultra amplia sin emborronamiento, añade un retardo de **5 a 15 ms** en una de las pistas, o aplica una sutil micro-desafinación de pitch-detune (+/- 4 a 6 cents) entre tomas.
 
+---
+
+## 4. Presets Especiales: La Escuela del Hard Rock Argentino (Pappo, Riff, La Renga)
+
+El sonido del rock pesado argentino histórico (desde Riff y Pappo's Blues hasta La Renga y Alakrán) no es el hard rock procesado de Los Ángeles; es un sonido **valvular al límite, crudo, con medios feroces que cortan la mezcla, grano áspero y mordida de púa pesada**.
+
+### Preset "El Carpo / Riff 80s" (Para la Epiphone Les Paul Pro)
+Inspirado en los Marshall JCM800 2203 al taco con cajas 1960A de cuatro parlantes de 12":
+* **Amp Model:** **Brit 800** o **Brit J-45**.
+* **Cab:** **4x12 Greenback 25** (da esa compresión cálida de parlante saturado en medios).
+* **Drive / Ganancia:** **6.8** (saturación orgánica valvular; no distorsión digital ultra comprimida).
+* **Bass:** **5.0** (evita la bola de graves; el peso lo pone el bajo valvular).
+* **Mid:** **8.0 - 8.5** (*¡Fundamental!* El rock nacional vive entre los 800 Hz y 2 kHz).
+* **Treble:** **5.5** (áspero pero sin agudos de mosquito).
+* **Presence:** **6.0** (para que el golpe de púa "chasquee" con rabia).
+* **Pedal Stomp:** **Screamer** o **Color Drive**:
+  * *Drive:* 1.5 – 2.0 (casi en cero, solo para tensar los graves).
+  * *Tone:* 6.0.
+  * *Level / Output:* 7.5 – 8.0 (empujando la entrada del cabezal).
+* **Dinámica en la Les Paul:**
+  * Para el Riff: Pastilla del puente con el tono al 8 (para recortar el filo vidrioso y dar cuerpo de madera).
+  * Para el solo blusero pesado: Pastilla del mástil con tono al 6 (el tono redondo y llorón de Pappo).
+
+### Preset "Furia de Ruta / Asfalto" (Para la Hamer con Seymour Duncan)
+Para el audio cortante, moderno y agresivo tipo Chizzo (La Renga) o Walter Giardino en sus rítmicas pesadas:
+* **Amp Model:** **Brit 800** con algo más de respuesta rápida.
+* **Cab:** **4x12 Vintage 30**.
+* **Drive:** **6.2**.
+* **Bass:** **6.0** (aprovecha la resonancia del cuerpo y puente hardtail).
+* **Mid:** **7.0**.
+* **Treble:** **5.0** (compensa el brillo natural del mástil de arce).
+* **Presence:** **4.8**.
+* **Modulación / FX sutil:** **Phaser** o **Flanger** muy suave antes de la distorsión con mix al 15% (guiño directo a Riff en los solos y pasajes pesados de los 80).
+
+

@@ -176,4 +176,73 @@ E|-----------------|-----------------|-----------------|-----------------|
    "No tiro la toalla, no hay marcha atrás...              ¡JAMÁS!"
 ```
 
+---
+
+## 7. Yeites y Arreglos Clave del Hard Rock Argentino (Escuela Pappo, Riff y La Renga)
+
+Para que el tema no suene a hard rock genérico internacional y adquiera esa **identidad pesada y arrastrada del rock nacional**, incorpora estos arreglos y yeites de guitarra:
+
+### A. Riff con Síncopa "Boogie Pesado" (El pulso arrastrado / Laid-Back)
+En lugar de tocar en semicorcheas rígidas y mecánicas, el rock pesado nacional se apoya en el arrastre del blues:
+* Toca las notas de la 6ta cuerda con **púa hacia abajo (downpicking)** contundente.
+* El traste 6 de la 6ta cuerda ($B\flat$) no se toca afinado recto: dale un **micro-bend (cuarto de tono hacia arriba)** con el dedo índice o mayor para ensuciar la nota antes de caer al $G$.
+
+```tabs
+     (Micro-bend blusero en 6b y ataque pesado en G5)
+e|-----------------------------------|-----------------------------------|
+B|-----------------------------------|-----------------------------------|
+G|------------------3h5--3-----------|--------------------3---5----------|
+D|------------------3h5--3-----------|--------------------3---5---5------|
+A|-----------------------------------|--------3-----------1---3---5------|
+E|--3---3---3-(3)-----------3---3----|--3-3-3-----6b~-3-----------3------|
+PM  .   .   .               .   .       . . .         .
+                                                  ^ micro-bend sucio
+```
+
+### B. Yeite 1: "Double Stops" de Furia Urbana (Llenado entre frases vocales)
+Inspirado en los arreglos de Pappo y Boff en Riff. Cuando la voz termina un verso en la estrofa (ej. tras *"Sigo de pie, no sé huir"*), la guitarra contesta con dobles cuerdas estiradas simultáneamente:
+
+```tabs
+     (Doble cuerda en 3ra y 2da estirando juntas / Pastilla del puente)
+e|-----------------------------------|
+B|-------6---6-----------------------|
+G|-------5b--5b--3-------------------|
+D|-------------------5~--------------|
+A|-----------------------------------|
+E|-----------------------------------|
+         ^   ^ Estira ambas cuerdas medio tono y resuelve con vibrato ancho
+```
+
+### C. Yeite 2: El Bend Llorón de Tono y Medio (Solo / Clímax)
+Típico de la escuela del Carpo en la Epiphone Les Paul (pastilla del mástil con tono al 6):
+* Estirar la 2da cuerda en el traste 6 o traste 8 con bend de **tono y medio** sostenido con la fuerza de tres dedos, aplicando un **vibrato amplio de muñeca** (no de dedos):
+
+```tabs
+     (Bend de tono y medio en traste 8 estirando hasta llegar a Re)
+e|-----------------------------------|-----------------------------------|
+B|---8b(1.5)~~~--8--6----------------|-----------------------------------|
+G|--------------------7--5b----------|-----------------------------------|
+D|--------------------------7-5------|-----------------------------------|
+A|------------------------------7-5--|---3h5p3---------------------------|
+E|-----------------------------------|---------6b---3~~~~~~~~~~~~~~~~~---|
+                                                    ^ Cierra en Sol grave
+```
+
+### D. Corte de Base al Unísono: Guitarra + Bajo (Golpe "Vitico")
+Justo antes de entrar al Estribillo, en el último compás del acorde $D5$, la guitarra y el bajo abandonan el rasgueo continuo y clavan tres golpes secos y percusivos al unísono:
+
+```tabs
+     (3 Golpes staccato cortados en seco sobre el beat 3 y 4)
+     D5          D5    D5    (¡Silencio y entra la voz al estribillo!)
+e|-------------|---------------------------------|
+B|-------------|---------------------------------|
+G|---7-7-7-7---|--7-----7-----7------------------|
+D|---7-7-7-7---|--7-----7-----7------------------|
+A|---5-5-5-5---|--5-----5-----5------------------|
+E|-------------|---------------------------------|
+     PM.....      !     !     ! (Mutea con la palma de inmediato)
+     1 y 2 y      3     y     4
+```
+
+
 

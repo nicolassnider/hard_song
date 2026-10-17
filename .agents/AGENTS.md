@@ -1,43 +1,61 @@
-# Reglas y Contexto del Proyecto: Canción de Hard Rock Old School
+# Sistema de Agentes: Producción Musical "Sigo de Pie" (Hard Rock Old School)
 
-## Contexto General
+Este documento define la **constitución técnica inquebrantable**, las restricciones del proyecto y la arquitectura operativa que todo agente de IA (principal o subagente) debe respetar en este repositorio.
 
-- **Estilo:** Hard rock con un sonido clásico ("old school").
-- **Tempo sugerido:** ~75 - 85 BPM (Ritmo de "Hard Rock Balada", pesado, arrastrado y con mucho sentimiento).
-- **Compás:** 4/4 (Cuatro cuartos, el estándar del rock clásico).
-- **Equipo:** 
-  - Guitarra Epiphone Les Paul Pro (cuerpo cálido, humbuckers clásicos).
-  - Guitarra Hamer estilo Superstrat (mástil/diapasón de arce, puente hardtail, pastilla Seymour Duncan en el puente y single coil angulada en mástil).
-  - Amplificador Line 6 Spider V 20 (con app Spider Remote y función de interfaz de audio USB).
-  - DAW: Steinberg Cubase (incluido con el amplificador).
-- **Voz:**
-  - Rango vocal: **D2 – D#4** (Registro de Barítono / Bajo, potente, oscuro y con grano clásico tipo David Coverdale, Layne Staley o Glenn Danzig).
-  - Zona de comodidad (Versos): **G2 – B3** (fraseo cálido, grave y melódico).
-  - Zona de impacto / clímax (Estribillo): **C4 – D4** (con **D#4** como nota cumbre de máxima tensión con rasgado o belting).
+---
 
-## Estructura Musical
+## 1. Identidad e Invariantes Técnicos del Proyecto
 
-- **Progresión de la Estrofa (Verse):** G - D - Em - C.
-- **Contraste:** La estrofa contrasta con un riff inicial pesado, agresivo y cargado de distorsión basado en la escala pentatónica menor de Sol.
-- **Dinámica en la Estrofa:**
-  - Sonido más abierto y melódico para dejar espacio a la voz en su registro medio/grave.
-  - *Tono:* Bajar el potenciómetro de volumen de la pastilla del puente en la Les Paul a un nivel entre 4 y 6 para limpiar ligeramente el *crunch* del Spider V20.
-  - *Ejecución:* Puede tocarse arpegiada/limpia o con Power Chords (G5 – D5 – E5 – C5) usando *Palm Mute* para mantener el empuje rítmico.
+Cualquier propuesta compositiva, arreglo o código generado debe cumplir sin excepciones con estos límites:
 
-## Directrices para el Agente
+- **Estilo:** Hard Rock Old School / Rock Pesado clásico (referencias: Whitesnake, Alice in Chains, Danzig, Pappo's Blues, Riff).
+- **Tonalidad Base:** Sol menor ($G$ minor / Pentatónica menor de Sol).
+- **Tempo Obligatorio:** **80 BPM** ($4/4$, ritmo arrastrado y pesado de Hard Rock Balada).
+- **Rango Vocal Inquebrantable:** **D2 a D#4** (Registro de Barítono / Bajo natural).
+  - *Graves / Tensión:* **D2 – B2** (resonancia de pecho, estrofas oscuras).
+  - *Comodidad Melódica:* **G2 – B3** (fraseo claro y cálido en versos).
+  - *Clímax / Belting:* **C4 – D4** (ganchos de estribillo con grano).
+  - *Cúspide Máxima:* **D#4 (Eb4)** (reservado para 1 o 2 impactos culminantes).
+  - *Restricción:* **PROHIBIDO** componer melodías continuas por encima de D4 o notas que superen D#4.
+- **Hardware & Instrumentación Disponible:**
+  - *Guitarra Rítmica L (100% Izquierda):* Epiphone Les Paul Pro (cuerpo de caoba, humbuckers Alnico Classic Pro).
+  - *Guitarra Rítmica R (100% Derecha):* Hamer Superstrat (mástil de arce, Seymour Duncan en puente, single coil mástil).
+  - *Amplificación & Interfaz USB:* Line 6 Spider V 20 (Presets Brit 800 / Plexi vía Spider Remote).
+  - *DAW:* Steinberg Cubase (plantilla multitrack de 8 pistas).
 
-- Al proponer arreglos, solos, letras o tonos, mantén el enfoque en el estilo "old school" de hard rock.
-- **Composición vocal:** Diseñar las melodías vocales y métricas respetando el rango **D2 a D#4**:
-  - Aprovechar los tonos profundos (D2 - B2) para versos melancólicos o de suspenso.
-  - Colocar los ganchos melódicos principales de estribillo entre **A3 y D4** para maximizar la energía sin sobreexigir el registro.
-- **Mezcla y ecualización:** Considerar el cuerpo grave de una voz de barítono (no recortar excesivamente los graves con HPF muy altos; dejar espacio entre 80 Hz y 200 Hz para evitar conflicto con el bajo y la fundamental de la guitarra).
-- Ten siempre en cuenta el equipo disponible (Les Paul, Hamer y Spider V 20) al dar consejos de configuración de efectos, EQ o uso de pastillas.
-- Fomenta el contraste dinámico entre las distintas partes de la canción (intro pesada vs. estrofas con espacio).
-- **Producción y Mezcla de Estudio:**
-  - **Pre-Chorus:** Construir tensión usando drum fills y redobles ininterrumpidos en toms hacia el acorde D5 antes del estribillo.
-  - **Espacio en Estrofas:** Paneado estricto L/R para guitarras arpegiadas, dejando el centro libre para la voz de barítono sostenida por bombo y bajo.
-  - **Capas Vocales en Estribillo:** Doblar la melodía principal a la octava inferior en el centro (D3) e incorporar apoyos rasgados paneados a los lados en el acorde C5.
-  - **Efectos de Época:** Tape delay corto (1/8) con slapback sutil en versos para textura 70s.
-  - **Limpieza Sub-Grave:** Aplicar filtro paso-alto (HPF) a 35 Hz en bajo y guitarras rítmicas para eliminar suciedad y maximizar pegada y headroom.
+---
 
+## 2. Arquitectura de Skills del Agente (División de Responsabilidades)
 
+Para optimizar el uso de contexto y evitar alucinaciones, los procedimientos técnicos detallados se encuentran encapsulados en **Skills de Antigravity**. El agente debe consultar y aplicar el skill correspondiente según la tarea:
+
+| Skill | Ubicación | Cuándo se Activa |
+| :--- | :--- | :--- |
+| **`vocal-arranger`** | [.agents/skills/vocal-arranger/SKILL.md](file:///c:/repos/hard_song/.agents/skills/vocal-arranger/SKILL.md) | Composición y corrección de letras en español, prosodia, métrica rítmica, armonización en octavas (D3) y coros raspados laterales. |
+| **`tone-crafting`** | [.agents/skills/tone-crafting/SKILL.md](file:///c:/repos/hard_song/.agents/skills/tone-crafting/SKILL.md) | Modelado de amplificadores en Spider Remote (Brit 800, Screamer, cabinas), dinámica de potenciómetros (limpiar a 4-5 en estrofas) y calibración de pastillas. |
+| **`cubase-workflow`** | [.agents/skills/cubase-workflow/SKILL.md](file:///c:/repos/hard_song/.agents/skills/cubase-workflow/SKILL.md) | Ruteo multitrack en Cubase, buffers ASIO, curvas de EQ para barítono (HPF en 55-65 Hz, dip en 220 Hz, realce en 3 kHz), tape delay 1/8 y mezcla. |
+| **`midi-generator`** | [.agents/skills/midi-generator/SKILL.md](file:///c:/repos/hard_song/.agents/skills/midi-generator/SKILL.md) | Edición de pistas MIDI, ejecución de `generate_midi_tracks.py` y validación automatizada de secuencias. |
+
+---
+
+## 3. Subagentes y Roles Especializados
+
+Cuando el usuario solicite tareas complejas o multi-etapa, el agente orquestador puede invocar subagentes especializados utilizando los siguientes roles predefinidos:
+
+- **`@vocal-coach` (Rol: Vocal Coach & Lyricist):**
+  - *Enfoque:* Perfeccionamiento de la lírica en español, rimas, acentos prosódicos y garantía de que ninguna nota exceda D#4.
+- **`@guitar-tech` (Rol: Guitar Tech & Tone Engineer):**
+  - *Enfoque:* Arreglos de guitarra, digitaciones en tablatura ([tabs.md](file:///c:/repos/hard_song/tabs.md)), respuesta del potenciómetro de volumen y compensación de timbres entre caoba y arce.
+- **`@audio-engineer` (Rol: DAW & Mixing Specialist):**
+  - *Enfoque:* Estructura de ganancia, ruteo de buses estéreo en Cubase, filtrado HPF a 35 Hz, compresión óptica y paneo 100% L / 100% R.
+- **`@midi-master` (Rol: MIDI & Code Specialist):**
+  - *Enfoque:* Automatización en Python con `generate_midi_tracks.py`, cálculo de ticks y marcas de tiempo a 80 BPM.
+
+---
+
+## 4. Control de Calidad Obligatorio (Quality Gate)
+
+Siempre que se efectúen cambios en la estructura de compases, tempos o melodías MIDI:
+1. Recompilar el archivo: `python generate_midi_tracks.py`.
+2. Ejecutar la auditoría automática: `python .agents/skills/midi-generator/scripts/verify_midi.py`.
+3. El agente **no dará por concluida la tarea** si el script de verificación reporta algún fallo en tempo, compás o rango vocal.

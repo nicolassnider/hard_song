@@ -13,7 +13,17 @@ Proyecto de composición, arreglos, producción y grabación para una balada / t
 | **[tabs.md](file:///c:/repos/hard_song/tabs.md)** | **Tablaturas de Guitarra:** Partituras ASCII para Riff en G menor pentatónica, Estrofa (arpegio y power chords), Pre-Chorus, Estribillo y Remate. |
 | **[tone_settings.md](file:///c:/repos/hard_song/tone_settings.md)** | **Configuraciones de Tono (Line 6 Spider V 20):** Presets Brit 800/Plexi, ajustes para Les Paul Pro (caoba) y Hamer (arce + Seymour Duncan). |
 | **[cubase_setup.md](file:///c:/repos/hard_song/cubase_setup.md)** | **Guía de Grabación en Cubase:** Configuración USB ASIO, plantilla multitrack (8 pistas), Groove Agent SE y procesamiento de voz de barítono. |
-| **[.agents/AGENTS.md](file:///c:/repos/hard_song/.agents/AGENTS.md)** | **Reglas de Contexto para IA:** Parámetros musicales, registro vocal y directrices de arreglos para asistentes de programación y producción. |
+| **[.agents/AGENTS.md](file:///c:/repos/hard_song/.agents/AGENTS.md)** | **Constitución de Reglas para IA:** Invariantes de proyecto, límites de tesitura y arquitectura de orquestación de agentes. |
+| **[.agents/skills/](file:///c:/repos/hard_song/.agents/skills/)** | **Skills Especializados de IA:** Procedimientos encapsulados con Progressive Disclosure (`vocal-arranger`, `tone-crafting`, `cubase-workflow`, `midi-generator`). |
+
+---
+
+## 🤖 Arquitectura de Agentes y Control de Calidad
+
+El proyecto implementa las mejores prácticas de desarrollo asistido por IA mediante **Antigravity Customizations**:
+- **Reglas Centrales (`.agents/AGENTS.md`):** Garantizan el cumplimiento de invariantes críticos (80 BPM, tesitura D2–D#4, ruteo 100% L/R).
+- **Skills Modulares (`.agents/skills/`):** Activación bajo demanda (Progressive Disclosure) para reducir consumo de contexto y maximizar la precisión técnica.
+- **Auditoría Automática (`verify_midi.py`):** Quality gate determinista que valida tempos, pistas y tesitura antes de aceptar cualquier cambio de código o MIDI.
 
 ---
 
@@ -22,6 +32,7 @@ Proyecto de composición, arreglos, producción y grabación para una balada / t
 * **Proyecto Cubase:** `cubase/hard_song.cpr`
 * **Pistas MIDI:** `cubase/hard_song_tracks.mid` (Incluye pistas de claqueta, batería, bajo, armonía guía, guitarras y guía vocal).
 * **Generador MIDI:** [generate_midi_tracks.py](file:///c:/repos/hard_song/generate_midi_tracks.py) (Script en Python que compila las pistas estándar MIDI format 1 a 80 BPM).
+* **Auditoría de Calidad:** [.agents/skills/midi-generator/scripts/verify_midi.py](file:///c:/repos/hard_song/.agents/skills/midi-generator/scripts/verify_midi.py) (Validador automático de formato, BPM y rango vocal).
 
 ---
 

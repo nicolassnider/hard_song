@@ -1,166 +1,162 @@
-# Letra Oficial y Guía de Interpretación Vocal: "Sigo de Pie"
-**Estilo:** Hard Rock Old School | **Tonalidad:** Sol Menor (G minor) | **Tempo:** 80 BPM
-**Tesitura Vocal:** Barítono / Bajo (D2 – D#4)
+# Sigo de Pie — Letra y Acordes
+
+**Tonalidad:** Sol menor (G minor) | **Tempo:** 80 BPM | **Compás:** 4/4  
+**Registro Vocal:** Barítono (D2 a D#4)  
 
 ---
 
-## Estructura Completa y Letra con Guía de Registro
+### Acordes Rápidos
 
-### [Intro] (4 Compases)
-*(Riff pesado en G minor pentatonic. Actitud desafiante, distorsión total).*
-
----
-
-### [Verse 1] (8 Compases)
-*Arpegio limpio/crunch suave (G - D - Em - C). Voz en registro medio-grave (G2 a B3). Fraseo íntimo, oscuro y narrativo entre tiempos 1 y 3. Tape delay 1/8 con slapback.*
-
-**G                 D**
-Polvo y sudor en la piel
-**Em                  C**
-Vendas viejas en mi puño fiel
-**G                  D**
-El cuero pesado vuelve a crujir
-**Em             C**
-Sigo de pie, no sé huir
-**G                 D**
-Caí diez veces en el tapiz
-**Em             C**
-Llevo marcada la cicatriz
+```text
+  Estrofa 1 (Acordes Abiertos)       Estribillo / Riffs (Power Chords)
+  G:  320033    Em: 022000          G5:  355xxx    A5:  x022xx    Eb5: x688xx
+  D:  xx0232    C:  x32010          D5:  x577xx    C5:  x355xx    F5:  x81010xx
+```
 
 ---
 
-### [Pre-Chorus] (4 Compases)
-*Construcción de tensión rítmica (A5 - C5 - D5). Redoble continuo de toms en batería. La voz asciende de pecho (A2 -> E3 -> G3 -> C4).*
+## Cancionero
 
-**A5**
-Arde el aire, sube la tensión
-**C5**
-Ruge la fuerza en el corazón
-**D5 (Redoble de toms en crescendo)**
-No voy a aflojar
+```text
+[Intro]
+(Riff pesado en Sol menor - 4 compases)
 
----
 
-### [Chorus] (8 Compases)
-*Sonido masivo (G5 - D5 - C5). Voz en belting/rasgado con ataque en D4. Doblaje central a la octava inferior (D3). Coros rasgados en los extremos (L/R) sobre C5.*
+[Estrofa 1]
+(Tono limpio/crunch suave - Arpegio o rasgueo suave)
 
-**G5                 D5**
-Golpe a golpe, sin dar un paso atrás
-**C5**
-Rompo el silencio, no pido paz
-**G5                D5**
-Aunque me queme todo el dolor
-**C5**
-Meto más nafta en el motor
-**G5                 D5**
+G                   D
+Polvo y sudor en la piel,
+Em                    C
+vendas viejas en mi puño fiel.
+G                    D
+El cuero pesado vuelve a crujir:
+Em               C
+sigo de pie, no sé huir.
+G                   D
+Caí diez veces en el tapiz,
+Em               C
+llevo marcada la cicatriz.
+
+
+[Pre-Estribillo]
+(Sube la distorsión - Redoble de toms en batería)
+
+A5
+Arde el aire, sube la tensión,
+C5
+ruge la fuerza en el corazón...
+D5
+¡No voy a aflojar!
+
+
+[Estribillo]
+(Distorsión al 10 - Toda la banda con fuerza)
+
+G5                   D5
+Golpe a golpe, sin dar un paso atrás,
+C5
+rompo el silencio, no pido paz.
+G5                  D5
+Aunque me queme todo el dolor,
+C5
+meto más nafta en el motor.
+G5                   D5
 ¡Sigo de pie, sigo acá!
-**C5**
-*(Sigo acá)*
+C5
+(¡Sigo acá!)
 
----
 
-### [Verse 2] (8 Compases)
-*Power chords en corcheas con Palm Mute (G5 - D5 - E5 - C5). Voz con mayor proyección torácica y mordida agresiva.*
+[Estrofa 2]
+(Power chords con Palm Mute en corcheas)
 
-**G5                D5**
-Dientes apretados, gusto a sal
-**E5                   C5**
-Esta vieja furia no tiene rival
-**G5                 D5**
-Nadie en la grada me va a aplaudir
-**E5              C5**
-Solo este saco me ve sufrir
+G5                  D5
+Dientes apretados, gusto a sal,
+E5                     C5
+esta vieja furia no tiene rival.
+G5                   D5
+Nadie en la grada me va a aplaudir,
+E5                C5
+solo este saco me ve sufrir.
 
----
 
-### [Pre-Chorus] (4 Compases)
-*Toms en crescendo y aceleración dinámica hacia el quiebre.*
+[Pre-Estribillo]
+A5
+Arde el aire, sube la tensión,
+C5
+ruge la fuerza en el corazón...
+D5
+¡No voy a aflojar!
 
-**A5**
-Arde el aire, sube la tensión
-**C5**
-Ruge la fuerza en el corazón
-**D5**
-No voy a aflojar
 
----
-
-### [Chorus] (8 Compases)
-*Segunda explosión de energía con toda la banda.*
-
-**G5                 D5**
-Golpe a golpe, sin dar un paso atrás
-**C5**
-Rompo el silencio, no pido paz
-**G5                D5**
-Aunque me queme todo el dolor
-**C5**
-Meto más nafta en el motor
-**G5                 D5**
+[Estribillo]
+G5                   D5
+Golpe a golpe, sin dar un paso atrás,
+C5
+rompo el silencio, no pido paz.
+G5                  D5
+Aunque me queme todo el dolor,
+C5
+meto más nafta en el motor.
+G5                   D5
 ¡Sigo de pie, sigo acá!
-**C5**
-*(Sigo acá)*
+C5
+(¡Sigo acá!)
 
----
 
-### [Bridge / Puente Dramático] (8 Compases)
-*Progresión de máxima tensión dramática: Eb5 - F5 - G5 / Eb5 - F5 - D5. Clímax antes del solo o del estribillo final.*
+[Puente]
+(Máxima distorsión y tensión)
 
-**Eb5                  F5**
-Mordé el alambre, aguantá el tirón
-**G5**
-El último asalto es mi salvación
-**Eb5                  F5**
-No tiro la toalla, no hay marcha atrás
-**D5 (Sostenido con volumen al 10 y corte seco en batería)**
-¡Jamás! *(Nota cumbre de tensión en D4 / D#4)*
+Eb5                    F5
+Mordé el alambre, aguantá el tirón,
+G5
+el último asalto es mi salvación.
+Eb5                    F5
+No tiro la toalla, no hay marcha atrás...
+D5
+¡JAMÁS!
 
----
 
-### [Solo de Guitarra] (8 Compases)
-*(Sobre la progresión del estribillo G5 - D5 - C5 o del riff principal).*
+[Solo de Guitarra]
+(Sobre la base del Estribillo: G5 - D5 - C5)
 
----
 
-### [Chorus Final] (8 Compases)
-*Máxima intensidad FFF. Clímax vocal con belting rasgado en D4 y nota cumbre en D#4.*
+[Estribillo Final]
+(A toda máquina con coros y doblajes)
 
-**G5                 D5**
-Golpe a golpe, sin dar un paso atrás
-**C5**
-Rompo el silencio, no pido paz
-**G5                D5**
-Aunque me queme todo el dolor
-**C5**
-Meto más nafta en el motor
-**G5                 D5**
+G5                   D5
+Golpe a golpe, sin dar un paso atrás,
+C5
+rompo el silencio, no pido paz.
+G5                  D5
+Aunque me queme todo el dolor,
+C5
+meto más nafta en el motor.
+G5                   D5
 ¡Sigo de pie, sigo acá!
-**C5**
-*(Sigo acá)*
+C5
+(¡Sigo acá!)
 
----
 
-### [Outro / Remate] (4 Compases)
-*Acordes secos F5 - C5 - G5 con silencios abruptos y remate en el riff principal.*
+[Outro / Remate]
+(Golpes secos con silencios abruptos)
 
-**F5**
-Un golpe más
-**(C5)**
-*(Un golpe más)*
-**G5 (Golpe seco)**
-Pura furia
-**F5          C5**
-Hierro y sal
-**G5**
+F5             C5
+Un golpe más... (un golpe más),
+G5
+pura furia,
+F5            C5
+hierro y sal...
+G5
 ¡No me van a tirar!
-*(¡Sigo acá!)*
+(Riff final y corte)
+```
 
 ---
 
-## 🎙️ Notas de Producción Vocal
+## 🎙️ Guía Rápida para el Cantante
 
-1. **Modificación de vocales:** En el ataque de "¡Sigo de pie, sigo acá!" sobre **D4 / D#4**, abrir la vocal /a/ hacia un sonido ancho y ligeramente cubierto para relajar la mandíbula y maximizar la distorsión armónica natural de la laringe.
-2. **Capas de estudio:**
-   - Toma Lead: Centro.
-   - Doblaje 1 octava abajo: Centro (registro $D3$).
-   - Respuestas entre paréntesis (*"Sigo acá"*, *"Un golpe más"*): Paneadas a $L/R$ (45%) con saturación cálida.
+* **Estrofas:** Fraseo grave y tranquilo (**G2 a B3**). No forzar el volumen; la intimidad le da el peso narrativo.
+* **Pre-Estribillo:** Subir con voz de pecho desde **A2** hasta el impacto de **C4** en *"¡No voy a aflojar!"*.
+* **Estribillo:** Ataque con grano/rasgado en **D4** (*"Golpe a golpe..."*). En el doblaje de estudio, sumar una pista al unísono una octava abajo (**D3**) para darle peso.
+* **Cúspide en el Puente:** El grito de *"¡JAMÁS!"* en **D#4** es la nota más alta de la canción. Abrir la mandíbula relajada hacia una /A/ ancha para no cerrar la garganta.

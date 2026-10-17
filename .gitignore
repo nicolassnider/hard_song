@@ -2,3 +2,12 @@
 cubase/Auto Saves/
 *.bak
 *.tmp
+*.csh
+
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
